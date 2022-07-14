@@ -1,8 +1,12 @@
+from pprint import pprint
 from account import Account
 from car import Car
-from payment import Payment
 
 
 if __name__ == "__main__":
+    print ("Hola mundo")
+
+    car = Car("PBO5555", Account("Diego Yanez", "17215555555"))   
     
-    car =Car("PBO555",Account("Alessandro Cisneros","1723505218"))
+    print(vars(car))
+    print(vars(car.driver))
